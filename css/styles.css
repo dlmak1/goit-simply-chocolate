@@ -14,7 +14,7 @@
 :root {
     --font-family: 'Montserrat', sans-serif;
 }
-
+ 
 body {
     font-family: --font-family;
     color: var(--black);
@@ -67,7 +67,7 @@ button {
 
 .nav-list-item {}
 
-.nav-list-link {ц
+.nav-list-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -97,26 +97,64 @@ button {
 }
 
 .hero-button {
-    border-radius: 100px;
-    padding: 14px 40px;
-    /* width: 144px;
-    height: 45px; */
-    background: var(--orange);
-
-    font-weight: 600;
+    background-color: var(--orange);
     font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--beige);
+    color: var(--orange);
+}
+
+.btn-how-its-made {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+}
+.btn-how-its-made:focus,
+.btn-how-its-made:hover,
+.skroll-button:hover,
+.skroll-button:focus {
+    color: var(--orange);
+}
+
+.skroll-button {
+    font-size: 14px;
+    font-weight: 600;
     color: var(--white);
 }
 
-.ankor-button {}
-
-.skroll-button {}
-
 /* #endregion =============== /Hero Styles =============== */
 /*!===============================================*/
-/* #region =============== Benefits Styles =============== */
+/* #region =============== Section 2 =============== */
 
-/* #endregion =============== /Benefits Styles =============== */
+.section_benefits {
+    background: var(--violet);
+}
+
+.title_benefits {}
+
+.list_item_benefits {}
+
+.item_benefits {}
+
+.item_title_benefits {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--white);
+}
+
+.item-text_benefits {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* #endregion =============== Section 2 =============== */
 /*!===============================================*/
 /* #region =============== Ingredients Styles =============== */
 
@@ -135,3 +173,4 @@ button {
 /* #region =============== Footer Styles =============== */
 
 /* #endregion=============== /Footer Styles =============== */
+
